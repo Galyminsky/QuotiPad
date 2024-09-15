@@ -3,8 +3,8 @@ package galyaminsky.quotipad.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "shopping_list_name")
-data class ShoppingListName(
+@Entity(tableName = "shop_list_name")
+data class ShoppingListItem(
 
     @PrimaryKey
     val id: Int? = null,
