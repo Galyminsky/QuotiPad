@@ -6,8 +6,4 @@ plugins {
     alias(libs.plugins.kotlinKsp) apply false
     alias(libs.plugins.daggerHilt) apply false
 
-
-
-
-
 }
