@@ -3,14 +3,13 @@ package galyaminsky.quotipad.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "shopping_list_name")
-data class ShoppingListName(
+@Entity(tableName = "note_table")
+data class NoteItem(
 
     @PrimaryKey
     val id: Int? = null,
-    val name: String,
+    val title: String,
+    val description: String,
     val time: String,
-    val allItemsCount: Int,
-    val allSelectedItemsCount: Int,
 
     )
