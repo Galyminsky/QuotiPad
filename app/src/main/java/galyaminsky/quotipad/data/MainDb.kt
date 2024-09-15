@@ -8,5 +8,5 @@ import androidx.room.RoomDatabase
 )
 
 abstract class MainDb : RoomDatabase() {
-
+    abstract val shoppingListDao: ShoppingListDao
 }

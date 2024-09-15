@@ -12,4 +12,4 @@ data class AddItem(
     val isCheck: Boolean,
     val listId: Int,
 
-)
+    )
