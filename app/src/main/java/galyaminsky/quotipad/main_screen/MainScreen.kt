@@ -6,6 +6,7 @@ import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import galyaminsky.quotipad.R
 
@@ -18,7 +19,8 @@ fun MainScreen() {
         FloatingActionButton(onClick = {}) {
             Icon(
                 painter = painterResource(id = R.drawable.icon_add),
-                contentDescription = "add"
+                contentDescription = "add",
+                tint = Color.White
             )
         }
     }, floatingActionButtonPosition = FabPosition.Center
